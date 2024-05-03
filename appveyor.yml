@@ -7,8 +7,7 @@ build:
   parallel: true
   verbosity: minimal
 artifacts:
-- path: OFGB\bin\Debug\*.exe
-- path: OFGB\bin\Debug\*.dll
+- path: bin
 only_commits:
   files:
     - OFGB/
