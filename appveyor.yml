@@ -8,6 +8,3 @@ build:
   verbosity: minimal
 artifacts:
 - path: bin
-only_commits:
-  files:
-    - OFGB/
