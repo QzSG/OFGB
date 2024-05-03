@@ -1,5 +1,7 @@
 version: 1.0.{build}
 image: Visual Studio 2022
+before_build:
+  - nuget restore OFGB.sln
 build:
   project: OFGB.sln
   parallel: true
